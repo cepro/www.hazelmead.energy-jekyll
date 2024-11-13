@@ -1,9 +1,9 @@
 <!-- Hero Section - Start
         ================================================== -->
-<section class="hero-section section-space" style="background-image: url('{{ site.url }}{{ site.baseurl }}/assets/images/cepro-illa-water-lillies.webp');">
+<section class="hero-section section-space" style="background-image: url('{{ site.url }}{{ site.baseurl }}/assets/images/cepro-illa.webp');">
   <div class="container">
     <div class="hero-image">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/site-logo.webp" alt="Water Lilies Community Energy">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/site-logo.webp" alt="{{ site.title }}">
     </div>
   </div>
 </section>
@@ -24,14 +24,12 @@
           Community Energy Reinvented
         </h2>
         <p class="heading-description">
-          Bright Green Futures, Clean Energy Prospector, and Bristol Energy Co-operative have partnered to design a
-          microgrid at the Water Lilies housing development in Kingsweston, Bristol that is redeﬁning the way housing
-          estates provide an energy service to its residents.
+          {{ site.esco.description }}
         </p>
         <p>
           As the technology behind solar PV panels, inverters, and battery energy storage systems has improved, it has
           now become possible to build a microgrid system that shares key parts of the infrastructure, and get the
-          beneﬁt of scale across a small site such as Water Lilies.
+          beneﬁt of scale across a small site such as {{ site.esco.name }}.
         </p>
         <a class="btn" href="{{ site.esco.app_url }}">
           Customer Log In
@@ -56,9 +54,7 @@
           <u>Your Impact Investor</u>
         </h2>
         <p class="heading-description">
-          Bright Green Futures, Clean Energy Prospector, and Bristol Energy Co-operative have partnered to design a
-          microgrid at the Water Lilies housing development in Kingsweston, Bristol that is redeﬁning the way housing
-          estates provide an energy service to its residents.
+          {{ site.esco.investor_description }}
         </p>
       </div>
     </div>
@@ -87,7 +83,7 @@
           </ul>
         </div>
         <div class="benefit-image">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cepro-illa-water-lillies-2.webp" alt="cepro illa water lillies">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cepro-illa-2.webp" alt="cepro illa">
         </div>
       </div>
     </div>

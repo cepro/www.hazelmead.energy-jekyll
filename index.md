@@ -1,7 +1,7 @@
 ---
-title: "Water Lilies Community Energy"
+title: "Hazelmead Community Energy"
 layout: default
-description: "Water Lilies Energy"
+description: "Hazelmead Energy"
 ---
 
 
