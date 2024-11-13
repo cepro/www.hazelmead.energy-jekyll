@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t wlce-jekyll .
+docker build -t hmce-jekyll .
