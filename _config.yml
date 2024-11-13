@@ -1,7 +1,7 @@
 permalink: /:title/
-title: 'Water Lilies Community Energy'
+title: 'Hazelmead Community Energy'
 
-google_analytics_id: "G-DTPQPFRN9Z"
+google_analytics_id: "G-BZ0JNJMGT6"
 
 homepage:
   show_call_box: true
@@ -10,16 +10,21 @@ logo:
   main: "assets/images/logo.png"
   light: "assets/images/logo-light.png"
 
-footer:
-  copyright_text: 'You can start and finish one of these popular software landing in under a day - for free! Check the list below'
+esco:
+  name: Hazelmead
+  domain: hazelmead.energy
+  email: hello@hazelmead.energy
+  phone: "+44 330 828 3096"
+  app_url: https://app.hazelmead.energy"
+  description: "Bridport Cohousing, Clean Energy Prospector, and Bristol Energy Co-operative have partnered to design a microgrid at the Hazlemead housing development that is redeﬁning the way housing estates provide an energy service to its residents."
 
 seo:
-  meta_og_title: "Water Lilies Community Energy"
+  meta_og_title: "Hazelmead Community Energy"
   meta_og_type: "website"
-  meta_og_url: "https://cepro.github.io/www.waterlilies.energy-jekyll/"
-  meta_og_image: "https://cepro.github.io/www.waterlilies.energy-jekyll/assets/images/cepro-illa-water-lillies-2.webp"
-  meta_og_description: "Bright Green Futures, Clean Energy Prospector, and Bristol Energy Co-operative have partnered to design a microgrid at the Water Lilies housing development in Kingsweston, Bristol that is redeﬁning the way housing estates provide an energy service to its residents."
-  meta_og_keywords: "The Water Lilies Community Energy company has been created to provide you with: Cheaper bills, Lower carbon footprint, Simple pricing and flat rate tariff, Integrated EV charging, Smart Heat"
+  meta_og_url: "https://cepro.github.io/www.hazelmead.energy-jekyll/"
+  meta_og_image: "https://cepro.github.io/www.hazelmead.energy-jekyll/assets/images/cepro-illa-water-lillies-2.webp"
+  meta_og_description: {{ site.esco.description }}
+  meta_og_keywords: "The Hazelmead Community Energy company has been created to provide you with: Cheaper bills, Lower carbon footprint, Simple pricing and flat rate tariff, Integrated EV charging, Smart Heat"
   meta_twitter_card: "summary"
   meta_twitter_site: "@mappix"
   meta_twitter_creator: "@mappix"
