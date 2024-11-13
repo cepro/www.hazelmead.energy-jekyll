@@ -15,11 +15,14 @@ esco:
   domain: hazelmead.energy
   email: hello@hazelmead.energy
   phone: "+44 330 828 3096"
-  app_url: https://app.hazelmead.energy"
+  app_url: https://app.hazelmead.energy
   description: "Bridport Cohousing, Clean Energy Prospector, and Bristol Energy Co-operative have partnered to design a microgrid at the Hazlemead housing development that is redeﬁning the way housing estates provide an energy service to its residents."
+  image:
+    filename: ev-charges.png
+    alt: "Hazelmead EV chargers on site"
 
 seo:
-  meta_og_title: "Hazelmead Community Energy"
+  meta_og_title: "{{ site.title }}"
   meta_og_type: "website"
   meta_og_url: "https://cepro.github.io/www.hazelmead.energy-jekyll/"
   meta_og_image: "https://cepro.github.io/www.hazelmead.energy-jekyll/assets/images/cepro-illa-water-lillies-2.webp"
